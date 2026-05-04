@@ -1,7 +1,7 @@
 {
   "name": "scoperta",
   "version": "0.0.1",
-  "description": "",
+  "description": "A lightweight network service discovery protocol",
   "main": "index.js",
   "scripts": {
     "start": "node ./"
