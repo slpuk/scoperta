@@ -49,7 +49,7 @@ Field Descriptions:
 
 _Example `Payload` (JSON):_
 ```json
-{"type":"temperature","value":23.5,"unit":"celsius"}
+{"type":"temperature", "port":5678, "protocol":"udp"}
 ```
 
 _Note:_ Multi-byte integers (ID, CRC-32) are transmitted in __network byte order (big-endian)__.
