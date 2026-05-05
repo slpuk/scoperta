@@ -1,6 +1,12 @@
 # Scoperta
 > A lightweight network service discovery protocol
 
+
+![Node.js](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+![Version](https://img.shields.io/badge/version-0.0.1-blue?style=for-the-badge)
+![License](https://img.shields.io/badge/license-MIT-green?style=for-the-badge)
+
+
 ## Run
 ### 1. Copy the repository
 
@@ -34,9 +40,9 @@ __Packet cheme:__
 [ CRC-32         ] - 4 Bytes
 ```
 Field Descriptions:
-- `Magic` – A unique version identifier used to implicitly filter out network noise and legacy packets. CRC-8-ROHC hash of `"Scoperta/{version}"`, where version is the protocol version string (e.g., "1", "2").This provides both versioning and noise filtering.
+- `Magic` - A unique version identifier used to implicitly filter out network noise and legacy packets. CRC-8-ROHC hash of `"Scoperta/{version}"`, where version is the protocol version string (e.g., "1", "2").This provides both versioning and noise filtering.
 - `ID` - A unique client identifier generated randomly.
-- `Name Length` – The length of the client’s name (`Name`).
+- `Name Length` - The length of the client’s name (`Name`).
 - `Name` - A user-defined client name, __UTF-8 encoded__, up to 255 bytes.
 - `Payload Length` - The length of the `Payload`.
 - `Payload` - A user-defined data, up to 255 Bytes.
