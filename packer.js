@@ -130,8 +130,7 @@ class Packer {
             name: name,
             payloadLength: payloadLength,
             payload: payload,
-            crc: receivedCrc,
-            valid: true
+            crc: receivedCrc
         };
     }
 
