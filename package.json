@@ -1,12 +1,15 @@
 {
   "name": "scoperta",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "A lightweight network service discovery protocol",
-  "main": "index.js",
+  "main": "example.js",
   "scripts": {
     "start": "node ./"
   },
-  "keywords": [],
+  "keywords": [
+    "Discovery",
+    "UDP"
+  ],
   "author": "slpuk",
-  "license": "MIT"
+  "license": "Apache-2.0"
 }
