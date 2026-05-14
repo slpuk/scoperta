@@ -2,9 +2,9 @@
 > A lightweight network service discovery protocol
 
 ![Node.js](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
-![Version](https://img.shields.io/badge/version-0.0.1-blue?style=for-the-badge)
-![Status](https://img.shields.io/badge/status-pre--alpha-a32d2a?style=for-the-badge)
-![License](https://img.shields.io/badge/license-MIT-green?style=for-the-badge)
+![Version](https://img.shields.io/badge/version-0.1.0-blue?style=for-the-badge)
+![Status](https://img.shields.io/badge/status-alpha-a32d2a?style=for-the-badge)
+![License](https://img.shields.io/badge/license-Apache_2.0-D22128?style=for-the-badge)
 
 ## Run
 ### 1. Copy the repository
