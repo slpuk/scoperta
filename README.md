@@ -55,4 +55,4 @@ _Example `Payload` (JSON):_
 _Note:_ Multi-byte integers (ID, CRC-32) are transmitted in __network byte order (big-endian)__.
 
 ## License
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [Apache 2.0 License](LICENSE).
